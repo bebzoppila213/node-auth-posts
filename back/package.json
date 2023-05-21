@@ -1,0 +1,37 @@
+{
+    "name": "test-auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "^4.7.1",
+        "bcrypt": "^5.1.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "express-validator": "^7.0.1",
+        "jsonwebtoken": "^9.0.0"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^8.0.1",
+        "@types/bcrypt": "^5.0.0",
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "@types/express-fileupload": "^1.4.1",
+        "@types/jsonwebtoken": "^9.0.2",
+        "@types/node": "^20.1.5",
+        "concurrently": "^8.0.1",
+        "nodemon": "^2.0.22",
+        "prisma": "^4.14.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}
